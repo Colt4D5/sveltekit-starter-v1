@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import { buttonVariants } from "$components/ui/button";
+</script>
+
+
+<h1>This is a Shadcn Button component</h1>
+<a href="/" class={buttonVariants({ variant: "default" })}>
+  Home
+</a>
